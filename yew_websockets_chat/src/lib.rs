@@ -222,6 +222,9 @@ impl Component for App {
 
         html! {
             <div class="chat-container">
+                <header style="text-align:center; margin-bottom:20px; background-color:#333; color:white; padding:10px; border-radius: 5px;">
+                    <h1 style="margin:0;">{ "YewChat Interaktif V2!" }</h1>
+                </header>
                 <h2>{ "Yew WebChat" }</h2>
                 <div>
                     <p>{ format!("Username saat ini: {}", self.username) }</p>
